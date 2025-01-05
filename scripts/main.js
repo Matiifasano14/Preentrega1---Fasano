@@ -177,3 +177,33 @@ if ((comboDescuento1 == 1) && (comboDescuento2 == 1)){
     alert("Por contratar ambos servicios con nosotros te hacemos un descuento del 20%, el total a pagar te queda en: $"+ precioConDescuento)
 }
 
+class paqueteComprado {
+    ciudad = "";
+    hotel = "";
+    precio = "";
+    constructor (ciudad, hotel, precio){
+        this.ciudad = ciudad;
+        this.hotel = hotel;
+        this.precio = precio;
+    }
+}
+
+const UnPaqueteComprado = new paqueteComprado ("salta", "iruya", 56.000);
+
+console.log ("El paquete que compraste tiene destino a " + this.ciudad + " en el hotel " + this.hotel + " y tiene un costo de " + this.precio)
+
+console.log (UnPaqueteComprado.toString());
+
+class facturaCompra {
+    id ="";
+    cliente = "";
+    paquete = "";
+    detalle = "";
+
+    constructor (id, cliente, paquete, detalle){
+        this.id;
+        this.cliente;
+        this.precio;
+        this.detalle;
+    }
+}
